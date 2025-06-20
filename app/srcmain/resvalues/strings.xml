@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saikat-DownloaderX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">DownloaderX</string>
+    <string name="nav_header_subtitle">Gothic Media Downloader</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Menu items -->
+    <string name="menu_downloader">Downloader</string>
+    <string name="menu_browser">Browser</string>
+    <string name="menu_converter">Converter</string>
+    <string name="menu_system_tools">System Tools</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Downloader -->
+    <string name="url_hint">Enter URL (MPD/M3U8/YouTube)</string>
+    <string name="keys_hint">Enter Keys (KEY:ID format)</string>
+    <string name="download">Download</string>
+    <string name="format_mkv">MKV</string>
+    <string name="format_mp4">MP4</string>
+    <string name="include_subtitles">Include Subtitles</string>
+    <string name="enable_logging">Enable Logging</string>
+    <string name="retry_failed">Auto-retry Failed Downloads</string>
+    
+    <!-- Live M3U8 Scheduler -->
+    <string name="scheduler_title">Live M3U8 Scheduler</string>
+    <string name="start_time">Start Time (IST)</string>
+    <string name="end_time">End Time (IST)</string>
+    <string name="schedule_recording">Schedule Recording</string>
+    
+    <!-- YouTube Downloader -->
+    <string name="youtube_title">YouTube Downloader</string>
+    <string name="detect_formats">Detect Formats</string>
+    <string name="download_playlist">Download Playlist</string>
+    <string name="fetch_metadata">Fetch Metadata</string>
+    
+    <!-- Settings -->
+    <string name="theme_title">App Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_amoled">AMOLED</string>
+    <string name="theme_retro_green">Retro Green</string>
+    <string name="theme_hacker_neon">Hacker Neon</string>
+    <string name="binary_paths">Binary Paths</string>
+    <string name="ffmpeg_path">FFmpeg Path</string>
+    <string name="mp4decrypt_path">MP4Decrypt Path</string>
+    <string name="ytdlp_path">YT-DLP Path</string>
+    <string name="n_m3u8dl_re_path">N_m3u8DL-RE Path</string>
+    <string name="download_folder">Download Folder</string>
+    <string name="screaming_notification">Screaming Girl Notification</string>
+    
+    <!-- System Tools -->
+    <string name="junk_cleaner">Junk Cleaner</string>
+    <string name="phone_booster">Phone Booster</string>
+    <string name="photo_cleaner">Photo Cleaner</string>
+    <string name="battery_saver">Battery Saver</string>
+    <string name="file_recovery">File Recovery</string>
+    
+    <!-- Converter -->
+    <string name="video_editor">Video Editor</string>
+    <string name="audio_editor">Audio Editor</string>
+    <string name="image_converter">Image Converter</string>
+    <string name="trim_video">Trim Video</string>
+    <string name="merge_videos">Merge Videos</string>
+    <string name="convert_format">Convert Format</string>
+    <string name="extract_audio">Extract Audio</string>
+    <string name="trim_audio">Trim Audio</string>
+    <string name="merge_audio">Merge Audio</string>
+    <string name="heic_to_jpg">HEIC to JPG</string>
+    
+    <!-- Browser -->
+    <string name="browser_title">GeckoView Browser</string>
+    <string name="sniff_media">Sniff Media</string>
+    <string name="manage_extensions">Manage Extensions</string>
+    <string name="bookmarks">Bookmarks</string>
+</resources>

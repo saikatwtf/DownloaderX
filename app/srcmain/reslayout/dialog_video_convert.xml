@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select output format"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/format_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/mp4_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MP4"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/mkv_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MKV" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_downloader">
+
+    <fragment
+        android:id="@+id/nav_downloader"
+        android:name="com.saikat.downloaderx.downloader.DownloaderFragment"
+        android:label="@string/menu_downloader"
+        tools:layout="@layout/fragment_downloader" />
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="com.saikat.downloaderx.browser.BrowserFragment"
+        android:label="@string/menu_browser"
+        tools:layout="@layout/fragment_browser" />
+
+    <fragment
+        android:id="@+id/nav_converter"
+        android:name="com.saikat.downloaderx.converter.ConverterFragment"
+        android:label="@string/menu_converter"
+        tools:layout="@layout/fragment_converter" />
+
+    <fragment
+        android:id="@+id/nav_system_tools"
+        android:name="com.saikat.downloaderx.systemtools.SystemToolsFragment"
+        android:label="@string/menu_system_tools"
+        tools:layout="@layout/fragment_system_tools" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.saikat.downloaderx.ui.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

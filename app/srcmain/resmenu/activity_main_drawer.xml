@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_downloader"
+            android:icon="@drawable/ic_download"
+            android:title="@string/menu_downloader" />
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@drawable/ic_browser"
+            android:title="@string/menu_browser" />
+        <item
+            android:id="@+id/nav_converter"
+            android:icon="@drawable/ic_converter"
+            android:title="@string/menu_converter" />
+        <item
+            android:id="@+id/nav_system_tools"
+            android:icon="@drawable/ic_tools"
+            android:title="@string/menu_system_tools" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/menu_settings" />
+        </menu>
+    </item>
+</menu>

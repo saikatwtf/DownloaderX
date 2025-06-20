@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gothic Dark Theme (Default) -->
+    <color name="gothic_black">#000000</color>
+    <color name="gothic_dark_gray">#1a1a1a</color>
+    <color name="gothic_pink">#ff1493</color>
+    <color name="gothic_light_pink">#ff69b4</color>
+    <color name="gothic_purple">#8b008b</color>
+    <color name="gothic_red">#dc143c</color>
+    <color name="gothic_white">#ffffff</color>
+    
+    <!-- Light Theme -->
+    <color name="light_primary">#6200ee</color>
+    <color name="light_primary_variant">#3700b3</color>
+    <color name="light_secondary">#03dac6</color>
+    <color name="light_background">#ffffff</color>
+    <color name="light_surface">#ffffff</color>
+    <color name="light_on_primary">#ffffff</color>
+    <color name="light_on_secondary">#000000</color>
+    <color name="light_on_background">#000000</color>
+    <color name="light_on_surface">#000000</color>
+    
+    <!-- Dark Theme -->
+    <color name="dark_primary">#bb86fc</color>
+    <color name="dark_primary_variant">#3700b3</color>
+    <color name="dark_secondary">#03dac6</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#121212</color>
+    <color name="dark_on_primary">#000000</color>
+    <color name="dark_on_secondary">#000000</color>
+    <color name="dark_on_background">#ffffff</color>
+    <color name="dark_on_surface">#ffffff</color>
+    
+    <!-- AMOLED Theme -->
+    <color name="amoled_primary">#bb86fc</color>
+    <color name="amoled_primary_variant">#3700b3</color>
+    <color name="amoled_secondary">#03dac6</color>
+    <color name="amoled_background">#000000</color>
+    <color name="amoled_surface">#000000</color>
+    <color name="amoled_on_primary">#000000</color>
+    <color name="amoled_on_secondary">#000000</color>
+    <color name="amoled_on_background">#ffffff</color>
+    <color name="amoled_on_surface">#ffffff</color>
+    
+    <!-- Retro Green Theme -->
+    <color name="retro_primary">#00ff00</color>
+    <color name="retro_primary_variant">#008000</color>
+    <color name="retro_secondary">#32cd32</color>
+    <color name="retro_background">#001100</color>
+    <color name="retro_surface">#002200</color>
+    <color name="retro_on_primary">#000000</color>
+    <color name="retro_on_secondary">#000000</color>
+    <color name="retro_on_background">#00ff00</color>
+    <color name="retro_on_surface">#00ff00</color>
+    
+    <!-- Hacker Neon Theme -->
+    <color name="neon_primary">#00ffff</color>
+    <color name="neon_primary_variant">#008b8b</color>
+    <color name="neon_secondary">#ff00ff</color>
+    <color name="neon_background">#0a0a0a</color>
+    <color name="neon_surface">#1a1a1a</color>
+    <color name="neon_on_primary">#000000</color>
+    <color name="neon_on_secondary">#000000</color>
+    <color name="neon_on_background">#00ffff</color>
+    <color name="neon_on_surface">#00ffff</color>
+</resources>

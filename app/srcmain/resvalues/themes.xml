@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Gothic Black-Pink) -->
+    <style name="Theme.DownloaderX" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gothic_pink</item>
+        <item name="colorPrimaryVariant">@color/gothic_purple</item>
+        <item name="colorSecondary">@color/gothic_light_pink</item>
+        <item name="android:colorBackground">@color/gothic_black</item>
+        <item name="colorSurface">@color/gothic_dark_gray</item>
+        <item name="colorOnPrimary">@color/gothic_white</item>
+        <item name="colorOnSecondary">@color/gothic_black</item>
+        <item name="colorOnBackground">@color/gothic_white</item>
+        <item name="colorOnSurface">@color/gothic_white</item>
+        <item name="android:statusBarColor">@color/gothic_black</item>
+        <item name="android:navigationBarColor">@color/gothic_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    
+    <!-- Splash Theme -->
+    <style name="Theme.DownloaderX.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gothic_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">4000</item>
+        <item name="postSplashScreenTheme">@style/Theme.DownloaderX</item>
+    </style>
+    
+    <!-- Light Theme -->
+    <style name="Theme.DownloaderX.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="colorOnSecondary">@color/light_on_secondary</item>
+        <item name="colorOnBackground">@color/light_on_background</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+    </style>
+    
+    <!-- Dark Theme -->
+    <style name="Theme.DownloaderX.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <item name="colorOnSecondary">@color/dark_on_secondary</item>
+        <item name="colorOnBackground">@color/dark_on_background</item>
+        <item name="colorOnSurface">@color/dark_on_surface</item>
+    </style>
+    
+    <!-- AMOLED Theme -->
+    <style name="Theme.DownloaderX.AMOLED" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/amoled_primary</item>
+        <item name="colorPrimaryVariant">@color/amoled_primary_variant</item>
+        <item name="colorSecondary">@color/amoled_secondary</item>
+        <item name="android:colorBackground">@color/amoled_background</item>
+        <item name="colorSurface">@color/amoled_surface</item>
+        <item name="colorOnPrimary">@color/amoled_on_primary</item>
+        <item name="colorOnSecondary">@color/amoled_on_secondary</item>
+        <item name="colorOnBackground">@color/amoled_on_background</item>
+        <item name="colorOnSurface">@color/amoled_on_surface</item>
+    </style>
+    
+    <!-- Retro Green Theme -->
+    <style name="Theme.DownloaderX.RetroGreen" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/retro_primary</item>
+        <item name="colorPrimaryVariant">@color/retro_primary_variant</item>
+        <item name="colorSecondary">@color/retro_secondary</item>
+        <item name="android:colorBackground">@color/retro_background</item>
+        <item name="colorSurface">@color/retro_surface</item>
+        <item name="colorOnPrimary">@color/retro_on_primary</item>
+        <item name="colorOnSecondary">@color/retro_on_secondary</item>
+        <item name="colorOnBackground">@color/retro_on_background</item>
+        <item name="colorOnSurface">@color/retro_on_surface</item>
+    </style>
+    
+    <!-- Hacker Neon Theme -->
+    <style name="Theme.DownloaderX.HackerNeon" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/neon_primary</item>
+        <item name="colorPrimaryVariant">@color/neon_primary_variant</item>
+        <item name="colorSecondary">@color/neon_secondary</item>
+        <item name="android:colorBackground">@color/neon_background</item>
+        <item name="colorSurface">@color/neon_surface</item>
+        <item name="colorOnPrimary">@color/neon_on_primary</item>
+        <item name="colorOnSecondary">@color/neon_on_secondary</item>
+        <item name="colorOnBackground">@color/neon_on_background</item>
+        <item name="colorOnSurface">@color/neon_on_surface</item>
+    </style>
+</resources>
